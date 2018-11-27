@@ -1,0 +1,10 @@
+version: '3.5'
+
+services: 
+
+ forca:
+    image: jairsjunior/forca-manuh
+    build: ./
+    ports:
+      - 8080:80
+
